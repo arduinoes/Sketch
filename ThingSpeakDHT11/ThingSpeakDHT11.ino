@@ -10,10 +10,10 @@
 DHTesp dht;
 
 //----------------  Completa con tus datos   ---------------------
-char ssid[] = "studio";           // Nombre de la red WiFi 
-char pass[] = "88888888";         // Contraseña de la red WiFi
-unsigned long myChannelNumber = 964762;  // Nº de canal de ThinkSpeak
-const char * myWriteAPIKey = "1W3SDA9T9H1MYWAM"; // Copia y pega API Key Write 
+char ssid[] = "nombreRed";           // Nombre de la red WiFi 
+char pass[] = "contraseñaRed";         // Contraseña de la red WiFi
+unsigned long myChannelNumber = 000000;  // Nº de canal de ThinkSpeak
+const char * myWriteAPIKey = "Key"; // Copia y pega API Key Write 
 //----------------------------------------------------------------
 
 WiFiClient  client;
